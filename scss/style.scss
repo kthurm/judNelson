@@ -196,23 +196,29 @@ section#slide-area {
     width:40px;
   }
 
+
 /*Fade*/
 .carousel-fade {
     .carousel-inner {
         .carousel-item {
             transition-property: opacity;
+            transition-duration: 3s;
+         
         }
-        
+
+  
         .carousel-item,
         .active.left,
         .active.right {
             opacity: 0;
+
         }
 
         .active,
         .next.left,
         .prev.right {
             opacity: 1;
+
         }
 
         .next,

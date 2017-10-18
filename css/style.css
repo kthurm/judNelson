@@ -167,7 +167,8 @@ section#slide-area {
 
 /*Fade*/
 .carousel-fade .carousel-inner .carousel-item {
-  transition-property: opacity; }
+  transition-property: opacity;
+  transition-duration: 3s; }
 
 .carousel-fade .carousel-inner .carousel-item,
 .carousel-fade .carousel-inner .active.left,
