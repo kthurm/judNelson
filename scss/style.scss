@@ -140,8 +140,8 @@ section#main_content {
   color: #000;
    }
 
-section#main_content .col-sm-7 {
-    padding: 20px 40px 70px 40px;
+section#main_content .col-sm-8 {
+    padding: 20px 40px 70px 60px;
 }
 
 section#main_content span{
@@ -279,13 +279,17 @@ float: right;
     }  
      h3 {
       
-      font-size: 3rem;
+      font-size: 3.5rem;
 
       } 
 
-      section#main_content .col-sm-5 {
-    padding: 20px 0 50px 0;
+      section#main_content .col-sm-8 {
+        padding: 20px 10px 60px 28px;
     }
+
+    div#slider {
+    margin-top: 60px;
+}
   }
 
     
@@ -319,14 +323,14 @@ float: right;
     }  
      h3 {
       
-      font-size: 4.1rem;
+      font-size: 4.4rem;
       }
       .container {
         max-width: 700px;
     }
 
     section#slide-area {
-    margin-top: 140px;
+    margin-top: 90px;
 
 }
 
@@ -339,7 +343,7 @@ float: right;
     }    
     h3 {
       
-      font-size: 4.6rem;
+      font-size: 5.2rem;
       }
     .container {
         max-width: 800px;
