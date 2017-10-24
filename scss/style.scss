@@ -274,18 +274,18 @@ float: right;
 }
     
 @media (min-width: 576px) {
-    .carousel-caption {
+    /*.carousel-caption {
      margin-bottom: -12px; 
-    }  
+    }  */
      h3 {
       
       font-size: 3.5rem;
 
       } 
 
-      section#main_content .col-sm-8 {
+    /*  section#main_content .col-sm-8 {
         padding: 20px 10px 60px 28px;
-    }
+    }*/
 
     div#slider {
     margin-top: 60px;
@@ -339,7 +339,7 @@ float: right;
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  
   .carousel-caption {
-     margin-bottom: -17px; 
+     margin-bottom: -19px; 
     }    
     h3 {
       
@@ -348,4 +348,8 @@ float: right;
     .container {
         max-width: 800px;
     }
+     section#main_content .col-lg-7 {
+        padding: 20px 15px 60px 48px;
+    }
+
 }
