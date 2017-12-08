@@ -18,7 +18,7 @@ h1 {
 
 /*nav*/
 .navbar-dark {
-  background-color: rgba(0, 0, 0, 0.5) !important; }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .navbar-brand {
   font-weight: 900;
@@ -35,9 +35,6 @@ div#navbarCollapse {
   padding-right: 50%;
   padding-left: 50%; }
 
-.navbar-collapse {
-  /*background-color: rgba(0, 0, 0, 0.5) !important;*/ }
-
 .fullBack {
   background-color: rgba(0, 0, 0, 0.5); }
 
@@ -48,6 +45,12 @@ div#navbarCollapse {
 .navbar-dark .navbar-toggler {
   border-color: #000;
   border: none; }
+
+a.nav-link.dropdown-toggle {
+  color: #666; }
+
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff; }
 
 .navbar-dark .navbar-toggler-icon {
   background-image: none !important;
@@ -150,6 +153,10 @@ section#main_content span {
   font-weight: 300;
   color: #d56103; }
 
+section#main_content span.color {
+  font-weight: 300;
+  color: #d56103; }
+
 section#main_content p {
   font-size: .85em;
   font-weight: 900;
@@ -166,6 +173,9 @@ h3 {
 section#slide-area {
   margin-top: 30px;
   margin-bottom: -48px; }
+
+.carousel-caption p {
+  color: #fff; }
 
 /*.carousel-item {
     width: 90%;
@@ -225,11 +235,33 @@ section#slide-area {
   margin-top: 2em;
   float: right; }
 
-/*// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-*/
-/*// Small devices (landscape phones, 576px and up)
-*/
+/*PAGES*/
+.container.scuplture {
+  padding: 20px 40px 70px 60px; }
+
+.scuplture h3 {
+  font-weight: 100;
+  font-size: 1.15em;
+  line-height: 2.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  padding-bottom: 1rem; }
+
+.scuplture span.color, .scuplt span.color {
+  color: #d56103;
+  font-weight: 700; }
+
+.carousel-caption p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: .75rem;
+  text-align: left; }
+
+.scuplt.carousel-caption {
+  padding-bottom: 5px; }
+
+/*MEDIA Queries*/
 @media (max-width: 375px) {
   .carousel-caption {
     margin-bottom: -11px; }
@@ -247,21 +279,29 @@ section#slide-area {
         padding: 20px 10px 60px 28px;
     }*/
   div#slider {
-    margin-top: 60px; } }
+    margin-top: 60px; }
+  a.nav-link.dropdown-toggle {
+    color: #fff; }
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: #d56103; } }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .carousel-caption {
     margin-bottom: -17px; }
+  .scuplt.carousel-caption {
+    margin-bottom: 1px; }
   h3 {
     font-size: 4.2rem; }
   div#navbarCollapse {
     padding-right: 0;
     padding-left: 0; }
+  .navbar-dark {
+    background-color: #000;
+    opacity: 1; }
   a.dropdown-item {
     margin-left: 9px; } }
 
-/*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .carousel-caption {
     margin-bottom: -16px; }
@@ -272,7 +312,6 @@ section#slide-area {
   section#slide-area {
     margin-top: 90px; } }
 
-/*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   .carousel-caption {
     margin-bottom: -19px; }
