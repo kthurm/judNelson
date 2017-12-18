@@ -16,6 +16,14 @@ h1 {
   padding-bottom: 75px;
   padding-left: 60px; }
 
+h4 {
+  text-transform: uppercase;
+  color: #d56103;
+  font-size: .93rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 0; }
+
 /*nav*/
 .navbar-dark {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -109,6 +117,10 @@ a.dropdown-item:hover {
   color: #d56103 !important;
   background-color: transparent; }
 
+.dropdown-menu.show {
+  background: #000;
+  opacity: .7; }
+
 .dropdown-item:focus, .dropdown-item:hover {
   color: #d56103;
   text-decoration: none;
@@ -150,10 +162,9 @@ section#main_content .col-sm-8 {
   padding: 20px 40px 70px 60px; }
 
 section#main_content span {
-  font-weight: 300;
   color: #d56103; }
 
-section#main_content span.color {
+section#main_content .color {
   font-weight: 300;
   color: #d56103; }
 
@@ -236,31 +247,46 @@ section#slide-area {
   float: right; }
 
 /*PAGES*/
+section#main_content .about p {
+  font-weight: 300;
+  padding-bottom: .8rem;
+  margin-bottom: 0;
+  line-height: 1.3rem; }
+
 .container.scuplture {
   padding: 20px 40px 70px 60px; }
 
 .scuplture h3 {
-  font-weight: 100;
-  font-size: 1.15em;
-  line-height: 2.3rem;
+  font-weight: 200;
+  font-size: 1.9em;
+  line-height: 2.5rem;
   font-family: 'Roboto', sans-serif;
   color: #000;
   padding-bottom: 1rem; }
 
-.scuplture span.color, .scuplt span.color {
-  color: #d56103;
-  font-weight: 700; }
+.scuplt span.color {
+  color: #d56103; }
+
+span.date {
+  padding-right: 32px;
+  color: #000 !important; }
+
+span.date2 {
+  padding-right: 12px;
+  color: #000 !important; }
 
 .carousel-caption p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1rem;
   font-size: .75rem;
-  text-align: left; }
+  text-align: left;
+  text-shadow: #000 1px 0 1px; }
 
 .scuplt.carousel-caption {
   padding-bottom: 5px; }
 
+/*PRINT PAGE*/
 /*MEDIA Queries*/
 @media (max-width: 375px) {
   .carousel-caption {
@@ -270,14 +296,8 @@ section#slide-area {
     font-size: 2.8rem; } }
 
 @media (min-width: 576px) {
-  /*.carousel-caption {
-     margin-bottom: -12px; 
-    }  */
   h3 {
     font-size: 3.5rem; }
-  /*  section#main_content .col-sm-8 {
-        padding: 20px 10px 60px 28px;
-    }*/
   div#slider {
     margin-top: 60px; }
   a.nav-link.dropdown-toggle {
