@@ -251,7 +251,12 @@ section#main_content .about p {
   font-weight: 300;
   padding-bottom: .8rem;
   margin-bottom: 0;
-  line-height: 1.3rem; }
+  line-height: 1.3rem; 
+text-indent: -66px;}
+
+.container.about {
+    margin-left: 120px;
+}
 
 .container.scuplture {
   padding: 20px 40px 70px 60px; }
