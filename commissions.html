@@ -233,11 +233,14 @@ Director, Walker Art Center, Minneapolis
   
     <div class="copyright"> 
 <p>  © Judson Nelson 
-  <script type="text/JavaScript">
-
-document.write(new Date().getFullYear());
-
-</script><br>
+   <script>
+          now = new Date
+          theYear=now.getYear()
+          if (theYear < 1900)
+          theYear=theYear+1900
+          document.write(theYear)
+    </script>
+<br>
 
    Branding/Web Site: Dekker Babian</p>
     </div><!-- end copyright-->
