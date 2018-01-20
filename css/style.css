@@ -252,7 +252,11 @@ section#main_content .about p {
   padding-bottom: .8rem;
   margin-bottom: 0;
   line-height: 1.3rem; 
-text-indent: -73px;}
+text-indent: 0;}
+
+section#main_content .about h4 {
+text-indent: 0;}
+
 
 .container.about {
     
@@ -305,6 +309,13 @@ span.date2 {
     font-size: 2.8rem; } }
 
 @media (min-width: 576px) {
+
+  section#main_content .about p {
+text-indent: -73px;}
+
+section#main_content .about h4 {
+text-indent: -73px;}
+
   h3 {
     font-size: 3.5rem; }
   div#slider {
