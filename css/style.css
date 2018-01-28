@@ -274,18 +274,24 @@ text-indent: 0;}
   padding-bottom: 1rem; }
 
 .scuplt span.color {
-  color: #d56103; }
+  color: #d56103;
+  }
+
+  .scuplture .color{
+  color: #d56103;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 !important; }
 
   .about span.color {
   color: #d56103; }
 
 
 span.date {
-  padding-right: 32px;
+  padding-right: 38px;
   color: #000 !important; }
 
 span.date2 {
-  padding-right: 12px;
+  padding-right: 15px;
   color: #000 !important; }
 
 .carousel-caption p {
@@ -299,19 +305,20 @@ span.date2 {
 .scuplt.carousel-caption {
   padding-bottom: 5px; }
 
-/*PRINT PAGE*/
+
 /*MEDIA Queries*/
 @media (max-width: 375px) {
   .carousel-caption {
     margin-bottom: -11px; }
   h3 {
     font-weight: 300;
-    font-size: 2.8rem; } }
+    font-size: 2.8rem; } 
+  }
 
 @media (min-width: 576px) {
 
   section#main_content .about p {
-text-indent: -73px;}
+text-indent: -75px;}
 
 section#main_content .about h4 {
 text-indent: -73px;}
