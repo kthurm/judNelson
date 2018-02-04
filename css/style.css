@@ -63,7 +63,13 @@ a.nav-link.dropdown-toggle {
 .navbar-dark .navbar-toggler-icon {
   background-image: none !important;
   width: 110%;
-  color: #fff; }
+  color: #fff; 
+height: 1.2em;}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: rgb(195, 5, 69); 
+}
+.navbar-dark .navbar-nav .nav-link{}
 
 button.navbar-toggler {
   padding-top: .4rem;
@@ -316,6 +322,10 @@ span.date2 {
   }
 
 @media (min-width: 576px) {
+
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: #fff; 
+}
 
   section#main_content .about p {
 text-indent: -75px;}
