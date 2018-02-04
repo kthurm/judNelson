@@ -69,7 +69,12 @@ height: 1.2em;}
 .navbar-dark .navbar-nav .show > .nav-link {
     color: rgb(195, 5, 69); 
 }
-.navbar-dark .navbar-nav .nav-link{}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(195, 5, 69);
+}
+
+
 
 button.navbar-toggler {
   padding-top: .4rem;
@@ -326,7 +331,9 @@ span.date2 {
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #fff; 
 }
-
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
   section#main_content .about p {
 text-indent: -75px;}
 
