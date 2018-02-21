@@ -47,7 +47,11 @@ padding-right:10px}
 .brand2{
   font-weight: 300;
   }
-.fixed-top{position:absolute;}
+.fixed-top {
+    position: absolute;
+    background: #000;
+    padding: 10px;
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
