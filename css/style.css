@@ -43,6 +43,9 @@ div#navbarCollapse{
   font-weight: 300;
   }
 
+.navbar {
+    padding:0;
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -342,7 +345,9 @@ span.date2 {
 
 @media (min-width: 576px) {
 
-  
+  .navbar {
+    padding: 0.5rem 1rem;
+}
 .navbar-dark {
   background-color: #000; }
 
