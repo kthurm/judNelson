@@ -28,7 +28,7 @@ h4 {
 
 .fixed-top{position:absolute;}
 
-.narbar{
+.navbar{
 padding: 0;}
 
 .navbar-dark {
@@ -42,7 +42,7 @@ div#navbarCollapse{
   font-weight: 900;
   font-size: 1.35em;
   color: #d56103 !important; 
-padding-right:10px}
+padding-left:10px}
 
 .brand2{
   font-weight: 300;
@@ -97,7 +97,7 @@ height: 1.2em;}
 button.navbar-toggler {
   padding-top: .4rem;
   border: none; 
-margin-left:10px}
+margin-right:10px}
 
 button.navbar-toggler:hover {
   border: none; }
