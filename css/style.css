@@ -40,8 +40,7 @@ div#navbarCollapse{
 
 .brand2{
   font-weight: 400;
-  font-size: 1.35em;
-  color: #d56103 !important; }
+  }
 
 
 .navbar-dark .navbar-nav .nav-link {
@@ -83,11 +82,6 @@ height: 1.2em;}
 .navbar-dark .navbar-nav .show > .nav-link {
     color: #d56103;
 }
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgb(195, 5, 69);
-}
-
 
 
 button.navbar-toggler {
