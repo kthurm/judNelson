@@ -42,10 +42,7 @@ div#navbarCollapse{
 .brand2{
   font-weight: 300;
   }
-
-.navbar {
-    padding:0;
-}
+.fixed-top{position:absolute;}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -345,9 +342,7 @@ span.date2 {
 
 @media (min-width: 576px) {
 
-  .navbar {
-    padding: 0.5rem 1rem;
-}
+  .fixed-top{position:fixed;}
 .navbar-dark {
   background-color: #000; }
 
