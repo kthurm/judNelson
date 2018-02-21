@@ -26,6 +26,10 @@ h4 {
 
 /*nav*/
 
+.navbar {
+    padding: 0;
+}
+
 
 .navbar-dark {
   background-color: transparent; }
@@ -37,7 +41,8 @@ div#navbarCollapse{
 .navbar-brand {
   font-weight: 900;
   font-size: 1.35em;
-  color: #d56103 !important; }
+  color: #d56103 !important; 
+padding-right:10px}
 
 .brand2{
   font-weight: 300;
@@ -343,6 +348,9 @@ span.date2 {
 @media (min-width: 576px) {
 
   .fixed-top{position:fixed;}
+  .navbar {
+    padding: 0.5rem 1rem;
+}
 .navbar-dark {
   background-color: #000; }
 
