@@ -26,8 +26,9 @@ h4 {
 
 /*nav*/
 
+
 .navbar-dark {
-  background-color: #000; }
+  background-color: transparent; }
 
 div#navbarCollapse{
     background-color: rgb(0, 0, 0);
@@ -342,7 +343,8 @@ span.date2 {
 @media (min-width: 576px) {
 
   
-
+.navbar-dark {
+  background-color: #000; }
 
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #fff; 
