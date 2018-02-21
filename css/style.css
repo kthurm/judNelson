@@ -83,6 +83,11 @@ height: 1.2em;}
     color: #d56103;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+   color: #d56103;  
+}
+
+
 
 button.navbar-toggler {
   padding-top: .4rem;
