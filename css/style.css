@@ -42,7 +42,8 @@ div#navbarCollapse{
   color: #fff;
   font-weight: 400;
   padding-right: 60px;
-  font-size: .75em; }
+  font-size: .75em; 
+}
 
 div#navbarCollapse {
   padding-right: 50%;
@@ -74,7 +75,7 @@ a.nav-link.dropdown-toggle {
 height: 1.2em;}
 
 .navbar-dark .navbar-nav .show > .nav-link {
-    color: rgb(195, 5, 69); 
+    color: #d56103;
 }
 
 .navbar-dark .navbar-nav .nav-link {
