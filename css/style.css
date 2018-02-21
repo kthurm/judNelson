@@ -47,11 +47,6 @@ padding-right:10px}
 .brand2{
   font-weight: 300;
   }
-.fixed-top {
-    position: absolute;
-    background: #000;
-    padding: 10px;
-}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -351,10 +346,7 @@ span.date2 {
 
 @media (min-width: 576px) {
 
-  .fixed-top{position:fixed;}
-  .navbar {
-    padding: 0.5rem 1rem;
-}
+  
 .navbar-dark {
   background-color: #000; }
 
