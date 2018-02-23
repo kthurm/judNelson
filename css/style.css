@@ -348,7 +348,7 @@ span.date2 {
 
 @media (min-width: 576px) {
   
-  .fixed-top{position:fixed;}
+
 
 .narbar{
 padding: 0.5rem 1rem;}
@@ -376,6 +376,8 @@ text-indent: -73px;}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .fixed-top{position:fixed;}
+  
   .carousel-caption {
     margin-bottom: -17px; }
   .scuplt.carousel-caption {
