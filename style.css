@@ -25,8 +25,11 @@ h4 {
   padding-bottom: 0; }
 
 /*nav*/
-.navbar-dark {
+
+nav-bg
+{
   background-color: rgba(0, 0, 0, 0.5); }
+
 
 .navbar-brand {
   font-weight: 900;
@@ -303,7 +306,8 @@ span.date2 {
   a.nav-link.dropdown-toggle {
     color: #fff; }
   .navbar-dark .navbar-nav .show > .nav-link {
-    color: #d56103; } }
+    color: #d56103; } 
+}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -316,9 +320,10 @@ span.date2 {
   div#navbarCollapse {
     padding-right: 0;
     padding-left: 0; }
-  .navbar-dark {
-    background-color: #000;
-    opacity: 1; }
+  nav-bg
+{
+  background-color: transparent; }
+
   a.dropdown-item {
     margin-left: 9px; } }
 
