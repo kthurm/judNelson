@@ -26,8 +26,7 @@ h4 {
 
 /*nav*/
 
-.fixed-top{position:absolute;}
-
+.nav-bg{background-color: rgba(0, 0, 0, .5);}
 .navbar{
 padding: 0;}
 
@@ -352,8 +351,11 @@ span.date2 {
 .narbar{
 padding: 0.5rem 1rem;}
   
-.navbar-dark {
-  background-color: #000; }
+  
+.nav-bg{background-color: transparent; 
+background-color: rgba(0, 0, 0, .5);}
+  
+
 
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #fff; 
