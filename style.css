@@ -26,9 +26,8 @@ h4 {
 
 /*nav*/
 
-nav-bg
-{
-  background-color: rgba(0, 0, 0, 0.5); }
+.nav-bg
+{background-color: rgba(0, 0, 0, 0.5); }
 
 
 .navbar-brand {
@@ -289,7 +288,7 @@ span.date2 {
 .scuplt.carousel-caption {
   padding-bottom: 5px; }
 
-/*PRINT PAGE*/
+
 /*MEDIA Queries*/
 @media (max-width: 375px) {
   .carousel-caption {
@@ -303,8 +302,10 @@ span.date2 {
     font-size: 3.5rem; }
   div#slider {
     margin-top: 60px; }
+  
   a.nav-link.dropdown-toggle {
     color: #fff; }
+  
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #d56103; } 
 }
@@ -320,7 +321,7 @@ span.date2 {
   div#navbarCollapse {
     padding-right: 0;
     padding-left: 0; }
-  nav-bg
+  .nav-bg
 {
   background-color: transparent; }
 
