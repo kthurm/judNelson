@@ -369,13 +369,16 @@ text-indent: -73px;}
     font-size: 3.5rem; }
   
   
-  a.nav-link.dropdown-toggle {
-    color: #fff; }
-  .navbar-dark .navbar-nav .show > .nav-link {
-    color: #d56103; } }
+  }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+  
+   a.nav-link.dropdown-toggle {
+    color: #fff; }
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: #d56103; }
+  
     .fixed-top{position:fixed;}
   
   .carousel-caption {
