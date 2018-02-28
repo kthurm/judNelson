@@ -344,7 +344,10 @@ span.date2 {
 
 @media (min-width: 576px) {
   
-
+.navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .narbar{
 padding: 0.5rem 1rem;}
