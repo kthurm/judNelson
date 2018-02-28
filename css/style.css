@@ -106,7 +106,7 @@ button.navbar-toggler:hover {
 .navbar-toggler-icon .fa {
   transform: scale(2, 1); }
 
-.collapse.show {
+.navbar-black {
   min-height: 800px;
   -webkit-transition: height 3s ease-in-out 3s;
   -o-transition: height 3s ease-in-out 3s;
