@@ -26,7 +26,7 @@ h4 {
 
 /*nav*/
 
-.fixed-top{position:absolute;}
+
 
 
 .navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
@@ -44,7 +44,7 @@ padding: 0;}
   font-weight: 900;
   font-size: 1.35em;
   color: #d56103 !important; 
-  padding-left:10px}
+  padding-left:10px;}
 
 .brand2{
   font-weight: 300;
@@ -96,7 +96,7 @@ a.nav-link.dropdown-toggle {
 button.navbar-toggler {
   padding-top: .4rem;
   border: none; 
-margin-right:10px}
+margin-right:10px;}
 
 button.navbar-toggler:hover {
   border: none; }
@@ -384,7 +384,7 @@ text-indent: -73px;}
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #d56103; }
   
-    .fixed-top{position:fixed;}
+    
   
   .carousel-caption {
     margin-bottom: -17px; }
