@@ -27,7 +27,15 @@ h4 {
 /*nav*/
 
 
-
+.black-top {
+    background: #000;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 17000;
+}
 
 .navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
     margin: 0;
