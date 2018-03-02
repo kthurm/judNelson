@@ -68,7 +68,7 @@ padding: 0;}
 .navbar-black {
   padding-right: 50%;
   padding-left: 50%; 
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .7);
   width: 800px;
   -webkit-transition: height 3s ease-in-out 3s;
   -o-transition: height 3s ease-in-out 3s;
