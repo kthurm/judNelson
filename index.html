@@ -11,10 +11,19 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,400|Roboto:100,300, 300i, 400,400i,500,700,900,900i" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+      .black-top {background:#000;
+        height: 85px;
+        position: absolute;
+        top:0;
+        width: 100px;
+        z-index: 1000;}
+    </style>
 </head>
 <body>
   
-  
+    <div class="black-top">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container">
        <a href="index.html" class="navbar-brand">Jud Nelson</a>
@@ -23,7 +32,7 @@
        
       </button>
      
-     
+     </div> <!-- end black-top -->  
       <div class="collapse navbar-collapse navbar-black" id="navbarCollapse">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav-bg">
          
@@ -157,6 +166,8 @@
       wrap:true
     }); 
   </script>
+
+
   
 </body>
 </html>
