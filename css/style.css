@@ -145,8 +145,8 @@ a.dropdown-item:hover {
   background-color: transparent; }
 
 .dropdown-menu.show {
-  background: #000;
-  opacity: .7; }
+  background: transparent;
+  opacity: 0; }
 
 .dropdown-item:focus, .dropdown-item:hover {
   color: #d56103;
@@ -367,6 +367,12 @@ text-indent: -73px;}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+
+  .dropdown-menu.show {
+    background: #000; 
+    opacity: .7;
+}
 
   .navbar-black{
     background-color: transparent;
