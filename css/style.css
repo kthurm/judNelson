@@ -146,7 +146,7 @@ a.dropdown-item:hover {
 
 .dropdown-menu.show {
   background: transparent;
-  opacity: 0; }
+   }
 
 .dropdown-item:focus, .dropdown-item:hover {
   color: #d56103;
