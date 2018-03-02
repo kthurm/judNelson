@@ -37,13 +37,6 @@ h4 {
     z-index: 17000;
 }
 
-.collapse.show {
-    display: block;
-    height: 1000px;
-    position: absolute;
-    top: 50px;
-    background: rgba(0, 0, 0, .7);
-}a
 .navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
     margin: 0;
 }
