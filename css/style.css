@@ -365,9 +365,8 @@ span.date2 {
 .narbar{
 padding: 0.5rem 1rem;}
   
-  .navbar-black {
-    padding-bottom: 0;
-}
+.navbar-black {
+padding-bottom: 210px;}
 
   section#main_content .about p {
 text-indent: -75px;}
@@ -392,7 +391,7 @@ text-indent: -73px;}
 
   .navbar-black{
     background-color: transparent;
-}
+padding-bottom: 0;}
 
   .navbar-dark .navbar-nav .show > .nav-link {
     color: #fff; 
