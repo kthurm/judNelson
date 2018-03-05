@@ -73,11 +73,9 @@ padding: 0;}
   -webkit-transition: height 3s ease-in-out 3s;
   -o-transition: height 3s ease-in-out 3s;
   transition: height 3s ease-in-out 3s;
-  animation-duration: 6s; }
+  animation-duration: 6s;
+ padding-bottom: 210px;}
 
-.navbar-black {
-    padding-bottom: 210px;
-}
 
 .dropdown-toggle::after {
   display: none;
@@ -367,7 +365,10 @@ span.date2 {
 .narbar{
 padding: 0.5rem 1rem;}
   
-  
+  .navbar-black {
+    padding-bottom: 0;
+}
+
   section#main_content .about p {
 text-indent: -75px;}
 
