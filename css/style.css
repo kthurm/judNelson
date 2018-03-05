@@ -75,6 +75,9 @@ padding: 0;}
   transition: height 3s ease-in-out 3s;
   animation-duration: 6s; }
 
+.navbar-black {
+    padding-bottom: 210px;
+}
 
 .dropdown-toggle::after {
   display: none;
@@ -348,6 +351,10 @@ span.date2 {
   h3 {
     font-weight: 300;
     font-size: 2.8rem; } 
+  
+  .navbar-black {
+    padding-bottom: 230px;
+}
   }
 
 @media (min-width: 576px) {
