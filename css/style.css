@@ -141,8 +141,8 @@ button.navbar-toggler:hover {
   white-space: nowrap;
   background: none;
   border: 0;
-  font-size: 1.35em;
-  font-weight: 300; }
+  font-size: 1.35rem;
+  font-weight: 200; }
 
 
 a.dropdown-item {
