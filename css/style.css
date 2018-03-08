@@ -126,7 +126,6 @@ button.navbar-toggler:hover {
   min-width: 10rem;
   padding: 0;
   margin: 0;
-  font-size: .75em;
   text-align: left;
   background: transparent;
   border: 0; }
@@ -141,7 +140,7 @@ button.navbar-toggler:hover {
   white-space: nowrap;
   background: none;
   border: 0;
-  font-size: 1.35rem;
+  font-size: 1.35em;
   font-weight: 200; }
 
 
