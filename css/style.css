@@ -142,8 +142,9 @@ button.navbar-toggler:hover {
   white-space: nowrap;
   background: none;
   border: 0;
-  font-size: 1em;
-  font-weight: 400; }
+  font-size: 1.35em;
+  font-weight: 300; }
+
 
 a.dropdown-item {
   margin-left: 0; }
@@ -401,6 +402,11 @@ padding-bottom: 0;}
   font-size: .75em; 
       color: #fff;
 }
+  .dropdown-item {
+    font-size: 2em;
+    font-weight: 400;
+}
+  
    a.nav-link.dropdown-toggle {
     color: #fff; }
 
